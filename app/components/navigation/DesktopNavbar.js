@@ -32,6 +32,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { Label } from "@/components/ui/label";
+import Link from "next/link";
 
 export default function DesktopNavbar() {
   const inputRef = useRef(null);
@@ -73,7 +74,7 @@ export default function DesktopNavbar() {
         <span
           className='ml-0.5 font-semibold text-xl'
           style={{ fontFamily: '"Times New Roman", Times, serif' }}>
-          mulhim
+          Mulhim
         </span>
       </div>
 
@@ -153,9 +154,13 @@ export default function DesktopNavbar() {
           </span>
         </div>
         <Separator orientation='vertical' />
-        <Button variant='outline'>Login</Button>
+        <Button variant='outline'>
+          <Link href='/student/login'>Login</Link>
+        </Button>
         <Separator orientation='vertical' />
-        <Button>Register</Button>
+        <Button>
+          <Link href='/student/signup'>Register</Link>
+        </Button>
         <Separator orientation='vertical' />
 
         <DropdownMenu>

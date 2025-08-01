@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import Link from "next/link";
 
-export default function LoginPage() {
+export default function LoginPage({ header }) {
   const [credentials, setCredentials] = useState({
     username: "",
     password: "",
@@ -30,7 +30,8 @@ export default function LoginPage() {
             Welcome Back
           </h1>
           <p className='text-gray-600'>
-            Log in to your medical education account
+            {/* Log in to your medical education account */}
+            {header}
           </p>
         </div>
 

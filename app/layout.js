@@ -1,5 +1,7 @@
+// app/layout.js (server component)
 import { Roboto } from "next/font/google";
 import "./globals.css";
+import Providers from "./provider";
 
 const roboto = Roboto({
   variable: "--font-roboto",
@@ -16,7 +18,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang='en'>
       <body className={`${roboto.variable} font-sans antialiased`}>
-        {children}
+        <Providers>{children}</Providers>
       </body>
     </html>
   );
