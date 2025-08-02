@@ -22,9 +22,9 @@ export default function Testimonials() {
       <div className='grid md:grid-cols-2 gap-6 px-4 max-w-5xl mx-auto'>
         <div className='bg-white rounded-2xl shadow p-6 flex flex-col justify-center'>
           <p className='text-lg text-gray-700 mb-4'>
-            “The platform's CME courses were exactly what I needed to renew my
-            SCFHS license. The structure was clear, content was up to date, and
-            the certificate was instantly available after completion.”
+            “The platform&apos;s CME courses were exactly what I needed to renew
+            my SCFHS license. The structure was clear, content was up to date,
+            and the certificate was instantly available after completion.”
           </p>
           <div className='text-2xl text-gray-600'>❝❞</div>
         </div>

@@ -15,7 +15,7 @@ const FAQ = () => {
         <p className='text-sm md:text-base'>FAQs</p>
       </div>
       <h1 className='text-center bg-gradient-to-t from-black via-gray-700 to-gray-300 bg-clip-text text-transparent text-2xl sm:text-3xl md:text-4xl font-semibold mb-4'>
-        Understanding Mulhim's Courses
+        Understanding Mulhim&apos;s Courses
       </h1>
 
       <div className='border border-slate-200 mt-4 sm:mt-7 px-4 sm:px-6 md:px-10 py-4 sm:py-5 mx-0 sm:mx-4 md:mx-10 rounded-lg'>
@@ -78,7 +78,7 @@ const FAQ = () => {
                 <p className='text-gray-700'>
                   Enrolling in courses on{" "}
                   <span className='font-semibold text-primary'>Mulhim</span> is
-                  straightforward. Here's how you can start:
+                  straightforward. Here&apos;s how you can start:
                 </p>
 
                 <ul className='list-none space-y-3 sm:space-y-4'>
